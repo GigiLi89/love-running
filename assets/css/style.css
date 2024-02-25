@@ -103,7 +103,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right;
+        padding-right: 1rem;
     }
     #menu {
         display: flex;
@@ -129,9 +129,10 @@ footer {
         margin-top: 79px;
     }
 }
-/* Media query: laptops and larger (992 px and up) */
-@media screen and (min-width: 992) {
-    #menu > a {
-            border-bottom: 1px solid #3a3a3a;
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) 
+/* Header */{
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
